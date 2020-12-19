@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="75" viewBox="0 0 104 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 397 288">
+      <image width="397" height="288" xlink:href="Fox%20Grow%20Logo%20Color-image.png"/>
+    </pattern>
+  </defs>
+  <rect id="Fox_Grow_Logo_Color" data-name="Fox Grow Logo Color" class="cls-1" width="104" height="75"/>
+</svg>
