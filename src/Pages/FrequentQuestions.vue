@@ -3,7 +3,7 @@
     <h1>Preguntas Frecuentas</h1>
     <img src="../assets/maxresdefault.jpg" alt="" />
   </div>
-  <the-wrapper>
+  <v-wapper>
     <section>
       <details open>
         <summary><i class="fas fa-angle-right"></i>Pregunta 1</summary>
@@ -60,13 +60,11 @@
         </base-description>
       </details>
     </section>
-  </the-wrapper>
+  </v-wapper>
 </template>
 
 <script>
-import BaseDescription from "../components/base/BaseDescription.vue";
 export default {
-  components: { BaseDescription },
   mounted() {
     this.$store.dispatch("closeMenu");
   },

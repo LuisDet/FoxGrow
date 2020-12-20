@@ -2,10 +2,10 @@
   <div class="hero" :style="newMargin">
     <img src="../../assets/Hero-Image.jpg" alt="" />
     <div class="content">
-      <base-text>
+      <layout-text>
         <h2 class="title">Texto Llamativo</h2>
         <p class="description">87% of people learning</p>
-      </base-text>
+      </layout-text>
       <div class="button-group">
         <base-button link to="/nosotros" :mode="'outline'">
           Unirme

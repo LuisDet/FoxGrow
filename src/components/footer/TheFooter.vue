@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <the-wrapper>
+    <v-wapper>
       <fox-grow />
       <base-description class="mb-4">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio animi
@@ -10,17 +10,15 @@
         >All copyright reserved @ Fox Grow 2020</base-description
       >
       <base-description>Términos y Condiciones</base-description>
-    </the-wrapper>
+    </v-wapper>
   </footer>
 </template>
 
 <script>
-import BaseDescription from "../base/BaseDescription.vue";
 import FoxGrow from "../icons/FoxGrow.vue";
 export default {
   components: {
     FoxGrow,
-    BaseDescription,
   },
 };
 </script>

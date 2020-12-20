@@ -1,5 +1,5 @@
 <template>
-  <the-wrapper>
+  <v-wapper>
     <div>
       <h2>Disfruta de <span>70+</span> horas de entrenamiento profesional</h2>
       <p>
@@ -8,7 +8,7 @@
       </p>
       <base-button>Unirme</base-button>
     </div>
-  </the-wrapper>
+  </v-wapper>
 </template>
 
 <script>

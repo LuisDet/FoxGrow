@@ -1,7 +1,7 @@
 <template>
   <section class="lession">
-    <the-wrapper>
-      <base-text
+    <v-wapper>
+      <layout-text
         mode="mb-6"
         title="Lecciones"
         description="
@@ -9,7 +9,7 @@
           developed by top universities and companies. All on Coursera for
           Business."
       />
-    </the-wrapper>
+    </v-wapper>
     <carrousel-list course />
   </section>
 </template>

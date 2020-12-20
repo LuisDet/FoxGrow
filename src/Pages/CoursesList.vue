@@ -3,7 +3,7 @@
     <h1>Cursos</h1>
     <img src="../assets/maxresdefault.jpg" alt="" />
   </div>
-  <the-wrapper>
+  <v-wapper>
     <base-description>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque voluptatem
       cum ab, ut est provident dicta consequatur totam a minus beatae ad non
@@ -17,7 +17,7 @@
       :description="'En esta lección trataremos Lorem ipsum dolor sit amet, ullum qualisque periculis cum ei'"
       :course="true"
     />
-  </the-wrapper>
+  </v-wapper>
 </template>
 
 <script>

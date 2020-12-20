@@ -1,12 +1,12 @@
 <template>
   <section class="testimonial">
-    <the-wrapper>
-      <base-text
+    <v-wapper>
+      <layout-text
         title="Testimonios"
         description="87% of people learning for professional development report career
           benefits like getting a promotion, a raise, or starting"
       />
-    </the-wrapper>
+    </v-wapper>
     <carrousel-list />
   </section>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <section>
-    <the-wrapper>
-      <base-text
+    <v-wapper>
+      <layout-text
         title="Título Acerca del Instructor"
         description="We’ve got the solution: world-class training and development programs
           developed by top universities and companies. All on Coursera for
@@ -14,20 +14,19 @@
         />
         <h3 class="instructor-name">Jesus Dorian</h3>
         <p class="instructor-info">Personal Trainer Certificado, Harvard</p>
-        <social-media
+        <layout-red-social
           :instagram="'https://www.instagram.com/foxgrowacademy/'"
           :facebook="'https://www.facebook.com'"
         />
       </base-card>
-    </the-wrapper>
+    </v-wapper>
   </section>
 </template>
 
 <script>
-import SocialMedia from "../layout/SocialMedia.vue";
-import TheWrapper from "../layout/TheWrapper.vue";
+import LayoutRedSocial from "../layout/LayoutRedSocial.vue";
 export default {
-  components: { TheWrapper, SocialMedia },
+  components: { LayoutRedSocial },
 };
 </script>
 

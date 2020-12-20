@@ -1,6 +1,6 @@
 <template>
   <header>
-    <the-wrapper>
+    <v-wapper>
       <nav>
         <router-link to="/" class="logo">
           <fox-grow :width="'30'" :height="'30'" />
@@ -16,21 +16,19 @@
             </li>
           </ul>
         </div>
-        <mobil-menu :navVisible="navVisible" />
+        <movil-navegation :navVisible="navVisible" />
       </nav>
-    </the-wrapper>
+    </v-wapper>
   </header>
 </template>
 
 <script>
-import FoxGrow from "../icons/FoxGrow.vue";
-import TheWrapper from "../layout/TheWrapper.vue";
-import MobilMenu from "./MobilMenu.vue";
+import FoxGrow from "../../icons/FoxGrow.vue";
+import MovilNavegation from "./MovilNavegation.vue";
 export default {
   components: {
     FoxGrow,
-    TheWrapper,
-    MobilMenu,
+    MovilNavegation,
   },
   data() {
     return {
@@ -81,8 +79,7 @@ button:focus,
 .router-link-active:focus {
   outline: none;
 }
-button:focus::before,
-.router-link-active:focus::before {
+button:focus::before {
   content: "";
   position: absolute;
   width: 35px;

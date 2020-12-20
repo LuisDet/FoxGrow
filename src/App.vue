@@ -1,15 +1,15 @@
 <template>
-  <nav-bar />
+  <the-menu />
   <router-view />
   <the-footer />
 </template>
 <script>
-import NavBar from "./components/nav/NavBar.vue";
-import TheFooter from "./components/sections/TheFooter.vue";
+import TheMenu from "./components/header/nav/TheMenu.vue";
+import TheFooter from "./components/footer/TheFooter.vue";
 export default {
   components: {
     TheFooter,
-    NavBar,
+    TheMenu,
   },
   methods: {
     calcMargin() {
