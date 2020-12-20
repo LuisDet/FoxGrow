@@ -23,7 +23,4 @@ export default {
 </script>
 
 <style scoped>
-section {
-  margin-bottom: 8em;
-}
 </style>

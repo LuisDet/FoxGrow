@@ -11,17 +11,18 @@
         </p>
       </base-text>
       <base-text mode="mb-6">
-        <h2 class="title">Texto Acerca del Curso</h2>
+        <h2 class="title">129+</h2>
         <p class="description">
-          87% of people learning for professional development report career
-          benefits like getting a promotion, a raise, or starting
+          When using either the Polygonal Lasso or the Magnetic Lasso tools
+          (both nested under the Lasso tool [L]), you can remove control points
+          in the order in which they were put down by backtracking
         </p>
       </base-text>
       <base-text mode="mb-6">
-        <h2 class="title">Texto Acerca del Curso</h2>
+        <h2 class="title">278+</h2>
         <p class="description">
-          87% of people learning for professional development report career
-          benefits like getting a promotion, a raise, or starting
+          (both nested under the Lasso tool [L]), you can remove control points
+          in the order.
         </p>
       </base-text>
     </section>

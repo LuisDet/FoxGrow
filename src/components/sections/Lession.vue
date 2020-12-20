@@ -2,10 +2,11 @@
   <section class="lession">
     <the-wrapper>
       <base-text mode="mb-6">
-        <h2 class="title">Texto Acerca del Curso</h2>
+        <h2 class="title">Lecciones</h2>
         <p class="description">
-          87% of people learning for professional development report career
-          benefits like getting a promotion, a raise, or starting
+          We’ve got the solution: world-class training and development programs
+          developed by top universities and companies. All on Coursera for
+          Business.
         </p>
       </base-text>
     </the-wrapper>

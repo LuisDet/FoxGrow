@@ -2,10 +2,11 @@
   <section>
     <the-wrapper>
       <base-text>
-        <h2 class="title">Texto Acerca del Curso</h2>
+        <h2 class="title">Título Acerca del Instructor</h2>
         <p class="description">
-          87% of people learning for professional development report career
-          benefits like getting a promotion, a raise, or starting
+          We’ve got the solution: world-class training and development programs
+          developed by top universities and companies. All on Coursera for
+          Business.
         </p>
       </base-text>
 
@@ -18,6 +19,7 @@
         <p class="instructor-info">Personal Trainer Certificado, Harvard</p>
         <social-media
           :instagram="'https://www.instagram.com/foxgrowacademy/'"
+          :facebook="'https://www.facebook.com'"
         />
       </base-card>
     </the-wrapper>

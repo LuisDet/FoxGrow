@@ -46,7 +46,6 @@ export default {
 i {
   font-size: 2em;
   color: var(--orange);
-  margin-right: 0.5em;
   padding: 0.5em;
   text-align: center;
 }

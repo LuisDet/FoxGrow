@@ -25,5 +25,6 @@ export default {
 footer {
   padding-top: 6em;
   background: var(--lighter-grey);
+  text-align: center;
 }
 </style>

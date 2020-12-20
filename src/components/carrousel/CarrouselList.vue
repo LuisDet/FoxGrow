@@ -9,7 +9,7 @@
     <swiper-slide>
       <carrousel-item
         :title="'Introduccion'"
-        :description="'Hola'"
+        :description="'En esta lección trataremos Lorem ipsum dolor sit amet, ullum qualisque periculis cum ei'"
         :name="'Jose'"
         :profession="'Naturista'"
         :course="course"
@@ -18,7 +18,16 @@
     <swiper-slide>
       <carrousel-item
         :title="'Introduccion'"
-        :description="'Hola'"
+        :description="'En esta lección trataremos Lorem ipsum dolor sit amet, ullum qualisque periculis cum ei'"
+        :name="'John Willam'"
+        :profession="'Naturista'"
+        :course="course"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <carrousel-item
+        :title="'Introduccion'"
+        :description="'En esta lección trataremos Lorem ipsum dolor sit amet, ullum qualisque periculis cum ei'"
         :name="'Jose'"
         :profession="'Naturista'"
         :course="course"
@@ -27,17 +36,8 @@
     <swiper-slide>
       <carrousel-item
         :title="'Introduccion'"
-        :description="'Hola'"
-        :name="'Jose'"
-        :profession="'Naturista'"
-        :course="course"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <carrousel-item
-        :title="'Introduccion'"
-        :description="'Hola'"
-        :name="'Jose'"
+        :description="'En esta lección trataremos Lorem ipsum dolor sit amet, ullum qualisque periculis cum ei'"
+        :name="'John Willam'"
         :profession="'Naturista'"
         :course="course"
       />

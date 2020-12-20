@@ -7,8 +7,10 @@
         <p class="description">87% of people learning</p>
       </base-text>
       <div class="button-group">
-        <base-button link to="/about" :mode="'outline'"> Unirme </base-button>
-        <base-button link to="/about"> Aprende Mas </base-button>
+        <base-button link to="/nosotros" :mode="'outline'">
+          Unirme
+        </base-button>
+        <base-button link to="/nosotros"> Aprende Mas </base-button>
       </div>
     </div>
   </div>
