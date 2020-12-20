@@ -1,13 +1,11 @@
 <template>
   <section class="testimonial">
     <the-wrapper>
-      <base-text>
-        <h2 class="title">Testimonios</h2>
-        <p class="description">
-          87% of people learning for professional development report career
-          benefits like getting a promotion, a raise, or starting
-        </p>
-      </base-text>
+      <base-text
+        title="Testimonios"
+        description="87% of people learning for professional development report career
+          benefits like getting a promotion, a raise, or starting"
+      />
     </the-wrapper>
     <carrousel-list />
   </section>

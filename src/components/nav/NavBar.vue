@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     toggleNavVisible() {
-      this.$store.dispatch("toggleNavVisible");
+      this.$store.dispatch("openMenu");
     },
   },
 };

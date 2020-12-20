@@ -3,28 +3,25 @@
     <hero />
     <meta-list />
     <section>
-      <base-text mode="mb-6">
-        <h2 class="title">Texto Acerca del Curso</h2>
-        <p class="description">
-          87% of people learning for professional development report career
-          benefits like getting a promotion, a raise, or starting
-        </p>
-      </base-text>
-      <base-text mode="mb-6">
-        <h2 class="title">129+</h2>
-        <p class="description">
-          When using either the Polygonal Lasso or the Magnetic Lasso tools
+      <base-text
+        mode="mb-6"
+        title="Texto Acerca del Curso"
+        description="87% of people learning for professional development report career
+          benefits like getting a promotion, a raise, or starting"
+      />
+      <base-text
+        mode="mb-6"
+        title="129+"
+        description="When using either the Polygonal Lasso or the Magnetic Lasso tools
           (both nested under the Lasso tool [L]), you can remove control points
-          in the order in which they were put down by backtracking
-        </p>
-      </base-text>
-      <base-text mode="mb-6">
-        <h2 class="title">278+</h2>
-        <p class="description">
-          (both nested under the Lasso tool [L]), you can remove control points
-          in the order.
-        </p>
-      </base-text>
+          in the order in which they were put down by backtracking"
+      />
+      <base-text
+        mode="mb-6"
+        title="278+"
+        description="(both nested under the Lasso tool [L]), you can remove control points
+          in the order."
+      />
     </section>
   </the-wrapper>
   <lession />
@@ -49,8 +46,9 @@ export default {
     Testimonial,
     Hero,
   },
-  methods: {},
-  Instructor,
+  mounted() {
+    this.$store.dispatch("closeMenu");
+  },
 };
 </script>
 

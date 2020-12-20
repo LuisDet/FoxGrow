@@ -19,21 +19,21 @@ export default {};
 div {
   background: var(--blue-dark);
   text-align: center;
-  padding: 6em 0;
+  padding: 6rem 0;
 }
 h2 {
-  font-size: 3.5em;
+  font-size: 3.5rem;
   font-weight: bold;
   color: var(--white);
-  line-height: 1.3em;
-  margin-bottom: 1em;
+  line-height: 4.7rem;
+  margin-bottom: 1rem;
 }
 span {
   color: var(--orange);
 }
 p {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   color: var(--white);
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
 }
 </style>

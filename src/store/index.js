@@ -11,16 +11,22 @@ const store = createStore({
     updateOffset(state, payload){
       state.offset = payload.offsetValue
     },
-    toggleNavVisible(state) {
-      state.isVisible = !state.isVisible;
+    openMenu(state) {
+      state.isVisible = true;
+    },
+    closeMenu(state) {
+      state.isVisible = false;
     },
   },
   actions: {
     updateOffset(context, data){
       context.commit('updateOffset', data)
     },
-    toggleNavVisible(context){
-      context.commit('toggleNavVisible')
+    closeMenu(context){
+      context.commit('closeMenu')
+    },
+    openMenu(context){
+      context.commit('openMenu')
     }
   },
   getters:{

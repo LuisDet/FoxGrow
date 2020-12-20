@@ -5,20 +5,16 @@
     </button>
     <ul>
       <li>
-        <router-link to="/" class="active" @click="closeMenu">
-          Inicio
-        </router-link>
+        <router-link to="/"> Inicio </router-link>
       </li>
       <li>
         <router-link to="/cursos"> Cursos </router-link>
       </li>
       <li>
-        <router-link to="/nosotros" @click="closeMenu"> Nosotros </router-link>
+        <router-link to="/nosotros"> Nosotros </router-link>
       </li>
       <li>
-        <router-link to="preguntas-frecuentes" @click="closeMenu">
-          FAQs
-        </router-link>
+        <router-link to="preguntas-frecuentes"> FAQs </router-link>
       </li>
     </ul>
   </div>
@@ -34,7 +30,8 @@ export default {
   },
   methods: {
     closeMenu() {
-      this.$store.dispatch("toggleNavVisible");
+      this.$store.dispatch("closeMenu");
+      console.log(this.$route.path);
     },
   },
 };
@@ -71,15 +68,14 @@ button {
   left: -102%;
   width: 100vw;
   height: 100vh;
-  /* -webkit-transition: all 0.8s cubic-bezier(0.6, 1.8, 0.7, 0.5); */
-  transition: all 1s cubic-bezier(0.6, 2.3, 1, -0.1);
+  transition: all 0.3s cubic-bezier(0.2, 0, 1, 0.715);
   opacity: 0;
   z-index: 5;
 }
 
 .nav-active {
   left: 0;
-  transition: all 0.8s cubic-bezier(0.6, 1.6, 0.7, 0.5);
+  transition: all 0.5s cubic-bezier(0.6, 1.6, 0.7, 0.5);
   opacity: 1;
 }
 
@@ -97,13 +93,13 @@ button {
   padding: 1em;
   text-decoration: none;
 }
-.nav a.active {
+li .router-link-active {
   color: var(--orange);
   font-weight: 700;
   position: relative;
 }
 
-.nav a.active::after {
+.router-link-active::after {
   content: "";
   position: absolute;
   display: block;

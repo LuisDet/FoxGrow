@@ -44,16 +44,16 @@ export default {
   align-items: center;
 }
 i {
-  font-size: 2em;
+  font-size: 2rem;
   color: var(--orange);
-  padding: 0.5em;
+  padding: 1rem;
   text-align: center;
 }
 
 .circle {
   border-radius: 50%;
-  width: 1em;
-  height: 1em;
+  width: 1rem;
+  height: 1rem;
   background-color: rgba(250, 126, 66, 0.2);
 }
 </style>

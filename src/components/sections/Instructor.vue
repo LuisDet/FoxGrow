@@ -1,15 +1,12 @@
 <template>
   <section>
     <the-wrapper>
-      <base-text>
-        <h2 class="title">Título Acerca del Instructor</h2>
-        <p class="description">
-          We’ve got the solution: world-class training and development programs
+      <base-text
+        title="Título Acerca del Instructor"
+        description="We’ve got the solution: world-class training and development programs
           developed by top universities and companies. All on Coursera for
-          Business.
-        </p>
-      </base-text>
-
+          Business."
+      />
       <base-card>
         <img
           src="https://image.freepik.com/foto-gratis/instructor-gimnasio-portapapeles_107420-30227.jpg"

@@ -1,22 +1,27 @@
 <template>
   <section class="metas">
-    <meta-item v-for="meta in metas" :key="meta.id" :title="meta.title" :desc="meta.description">
+    <meta-item
+      v-for="meta in metas"
+      :key="meta.id"
+      :title="meta.title"
+      :desc="meta.description"
+    >
       <i :class="meta.icon"></i>
     </meta-item>
   </section>
 </template>
 
 <script>
-import MetaItem from './MetaItem.vue';
+import MetaItem from "./MetaItem.vue";
 
 export default {
-  props: ['meta'],
+  props: ["meta"],
   components: {
     MetaItem,
   },
   computed: {
     metas() {
-      return this.$store.getters['metas/metas'];
+      return this.$store.getters["metas/metas"];
     },
   },
 };

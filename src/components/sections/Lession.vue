@@ -1,14 +1,14 @@
 <template>
   <section class="lession">
     <the-wrapper>
-      <base-text mode="mb-6">
-        <h2 class="title">Lecciones</h2>
-        <p class="description">
+      <base-text
+        mode="mb-6"
+        title="Lecciones"
+        description="
           We’ve got the solution: world-class training and development programs
           developed by top universities and companies. All on Coursera for
-          Business.
-        </p>
-      </base-text>
+          Business."
+      />
     </the-wrapper>
     <carrousel-list course />
   </section>

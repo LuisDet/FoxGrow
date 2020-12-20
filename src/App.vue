@@ -56,6 +56,13 @@ body {
   --white: #fff;
 }
 
+section {
+  padding: 6rem 0;
+}
+i {
+  text-align: center;
+}
+
 .mb-2 {
   margin-bottom: 2rem;
 }
@@ -72,24 +79,6 @@ body {
   margin-bottom: 8rem;
 }
 
-.title {
-  font-size: 3.6rem;
-  color: var(--blue-dark);
-  font-weight: bold;
-  line-height: 3.5rem;
-  margin-bottom: 2rem;
-}
-.description {
-  font-size: 1.6rem;
-  color: var(--grey-dark);
-  line-height: 2.72rem;
-  text-align: left;
-}
-
-section {
-  padding: 6em 0;
-}
-
 .swiper-button-prev,
 .swiper-button-next {
   margin-top: 230px !important  ;
@@ -100,10 +89,10 @@ section {
 }
 div.swiper-pagination-fraction {
   font-family: inherit;
-  font-size: 2.4em;
+  font-size: 2.4rem;
   color: var(--light-grey);
   width: 30%;
-  left: 1.3em;
+  left: 1.3rem;
 }
 .swiper-scrollbar-drag {
   background: var(--orange) !important;
@@ -111,7 +100,7 @@ div.swiper-pagination-fraction {
 }
 .swiper-container-horizontal > div.swiper-scrollbar {
   width: 40%;
-  bottom: 2.3em;
+  bottom: 2.3rem;
   left: 50%;
 }
 </style>

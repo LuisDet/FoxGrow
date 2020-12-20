@@ -43,25 +43,25 @@ export default {
 img {
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 0.7em;
+  margin-bottom: 0.7rem;
 }
 
 h3 {
   margin-top: 0;
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--blue-dark);
-  margin-bottom: 0.7em;
+  margin-bottom: 0.7rem;
 }
 
 p {
   margin-top: 0;
   text-align: left;
-  font-size: 0.8em;
+  font-size: 1.2rem;
   font-weight: 400;
   color: var(--grey-dark);
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 
 .person img {
@@ -73,12 +73,12 @@ p {
 .person {
   display: flex;
   text-align: left;
-  gap: 1em;
-  font-size: 0.8em;
+  gap: 1rem;
+  font-size: 0.8rem;
   align-items: center;
 }
 .person h4 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 700;
   margin: 0;
 }
